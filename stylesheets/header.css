@@ -65,7 +65,9 @@
 #header h1 > span {
   margin-right: 1rem;
 }
-
+#quick-search #q {
+  display: block !important;
+}
 #header h1 span a {
   color: var(--font-color);
 }
@@ -76,6 +78,22 @@
   right: 1rem;
   top: 1rem;
   display: flex;
+  width: 600px;
+  display: flex;
+}
+
+#quick-search form{
+  display: flex !important;
+  width: 100% !important;
+}
+#quick-search label {
+    display: block;
+    width: 54px !important;
+}
+#quick-search label a{
+  color: var(--blue) !important;
+  width: 100% !important;
+  line-height: 33px !important;
 }
 
 #quick-search > form {
@@ -156,7 +174,9 @@ p #search-input {
   -moz-appearance: none;
   appearance: none;
 }
-
+#block-select, select {
+ margin-left: 30px;
+}
 #project-jump .drdn-trigger {
   line-height: 1.2;
 }
